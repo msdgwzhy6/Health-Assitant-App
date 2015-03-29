@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+     android:background="#9BCD9B"  
+    >
+ 
+<LinearLayout
+        
+ 		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+ 		android:orientation="vertical" >	 
+ 		<LinearLayout
+		 android:id="@+id/tab01"
+		 android:orientation="vertical"
+		 android:layout_width="match_parent"
+		 android:layout_height="match_parent"
+		 >
+ 		
+ 		<TextView 
+  		 android:text="@string/Title0"
+  		 android:textSize = "25sp"
+  		 android:textColor = "#68228B"
+  		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"
+		 android:layout_marginTop="20dip"
+         android:layout_marginBottom="7dip"/>
+ 		<TextView 
+  		 android:text="(1)马上停止运动，安静下来，同时使用长布条、鞋带等身边可以利用的绳状物紧紧扎在伤口的上方（以手前臂受伤为例）。"
+  		 android:textSize = "15sp"
+  		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"/>
+ 		<TextView 
+  		 android:text="(2)用纯净水冲洗伤口，用打火机烧灼针或者刀片的头部，进行简易消毒，然后将伤口附近的皮肤处挑出几个小破口，然后再用纯净水冲洗伤口。"
+  		 android:textSize = "15sp"
+  		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"/>
+ 		<TextView 
+  		 android:text="(3)在布条的打结处放置一块约一指宽的木条，或者树枝将木块或树枝绑好，扭转木条，使布条绑得更紧，以免毒液游走全身，用力挤压伤口约15分钟，使毒液排出
+  		 尽早送往医院，如果蛇被打死了，则带上死蛇，有助于医生判断究竟是被那种蛇所伤，可以对症用血清"
+  		 android:textSize = "15sp"
+  		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"/>
+		</LinearLayout>
+
+
+  </LinearLayout>
+</ScrollView>

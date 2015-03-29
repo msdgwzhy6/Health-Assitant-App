@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bt_bkg_mainactivity_map"> >
+	<TextView
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"  
+	    android:text="我的药箱"
+	    android:textSize="30sp"
+	    android:textColor="#9BCD9B"
+	    android:textStyle="bold"
+	    android:gravity="center_horizontal"
+	    android:layout_marginTop="15dp">  
+	</TextView>
+
+	<ExpandableListView
+	    android:id="@+id/lv_medicine_items"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="15dp" 
+	    android:divider="#9BCD9B"
+	    android:dividerHeight="2dp"
+	   
+	    android:listSelector="#00000000"  
+	    android:cacheColorHint="#00000000" >
+	</ExpandableListView>
+ 
+</LinearLayout>

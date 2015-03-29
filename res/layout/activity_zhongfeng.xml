@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+     android:background="#9BCD9B"  
+    >
+ 
+<LinearLayout
+        
+ 		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+ 		android:orientation="vertical" >	 
+ 		<LinearLayout
+		 android:id="@+id/tab01"
+		 android:orientation="vertical"
+		 android:layout_width="match_parent"
+		 android:layout_height="match_parent"
+		 >
+ 		
+ 		<TextView 
+  		 android:text="@string/Title0"
+  		 android:textSize = "25sp"
+  		 android:textColor = "#68228B"
+  		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"
+		 android:layout_marginTop="20dip"
+         android:layout_marginBottom="7dip"/>
+ 		<TextView 
+  		 android:text="(1）发现病人突然发病后切忌慌乱紧张，应保持镇静，切勿为了弄醒病人而大声叫喊或猛烈摇动昏迷者，让病人平卧。
+  		 不要急于从地上把病人扶起，最好2~3人同时把病人平托到床上，头部略抬高，以避免震动。"
+  		 android:textSize = "15sp"
+  		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"/>
+ 		<TextView 
+  		 android:text="(2)松开病人衣领，取出假牙，呕吐病人应将头部偏向一侧，以免呕吐物堵塞气管而窒息。
+  		 如果有抽搐发作，可用筷子或小木条裹上纱布垫在上下牙间，以防咬破舌头。"
+  		 android:textSize = "15sp"
+  		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"/>
+ 		<TextView 
+  		 android:text="(3)病人出现气急、咽喉部痰鸣等症状时，可用塑料管或橡皮管插入到病人咽喉部，从另一端用口吸出痰液。
+  		 在尚未明确诊断是出血性中风或缺血性中风时，不要急于用药，因为两者用药是完全不同的。"
+  		 android:textSize = "15sp"
+  		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"/>
+		</LinearLayout>
+
+
+  </LinearLayout>
+</ScrollView>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <TextView
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"  
+	    android:text="我的地图"
+	    android:textSize="30sp"
+	    android:textColor="#9BCD9B"
+	    android:textStyle="bold"
+	    android:gravity="center_horizontal"
+	    android:layout_marginTop="20dp">  
+	</TextView>
+	<ListView
+	   android:id="@+id/mylist"
+	   android:layout_width="fill_parent"
+	   android:layout_height="wrap_content"  
+	    android:divider="#9BCD9B"
+	    android:dividerHeight="2dp"
+	   />    
+
+</LinearLayout>

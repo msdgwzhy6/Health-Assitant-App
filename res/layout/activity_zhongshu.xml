@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+     android:background="#9BCD9B"  
+    >
+ 
+<LinearLayout
+        
+ 		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+ 		android:orientation="vertical" >	 
+ 		<LinearLayout
+		 android:id="@+id/tab01"
+		 android:orientation="vertical"
+		 android:layout_width="match_parent"
+		 android:layout_height="match_parent"
+		 >
+ 		
+ 		<TextView 
+  		 android:text="@string/Title0"
+  		 android:textSize = "25sp"
+  		 android:textColor = "#68228B"
+  		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"
+		 android:layout_marginTop="20dip"
+         android:layout_marginBottom="7dip"/>
+ 		<TextView 
+  		 android:text="(1)转移中暑必然发生在高温的室内或室外环境。如果有中暑病人，高温条件下先将其转移到通风，阴凉的地方，
+  		 让它平躺，解开衣领，使其呼吸通畅。"
+  		 android:textSize = "15sp"
+  		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"/>
+ 		<TextView 
+  		 android:text="(2)降温不管是用物理降温或许药物降温，将患者搬运后首先就是为其进行降温。用一盆凉水或少数稀释过的酒精擦洗患者
+  		 的头部、颈部、腋窝、大腿根部等动脉血管方位，以到达降温作用；也能够在专业医生的指导下运用药物降温。"
+  		 android:textSize = "15sp"
+  		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"/>
+ 		<TextView 
+  		 android:text="(3)服药十滴水、藿香正气水等乃是解暑良药，应作为普通家庭常备药来储藏。尤其是炎热的夏天，若是家里有中暑的患者，
+  		 能够在为其进行以上两部医治后给其服用解暑药，缓解中暑症状。"
+  		 android:textSize = "15sp"
+  		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"/>
+ 		<TextView 
+  		 android:text="(4)按穴要是中暑患者的情况较严重，昏迷不醒，可先按压其人中、合谷等穴位尽快将其救醒。如以上的抢救措施没有奏效，
+  		 请及时拨打急救电话送往医院就医以免耽误病情。"
+  		 android:textSize = "15sp"
+  		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"/>
+		</LinearLayout>
+
+
+  </LinearLayout>
+</ScrollView>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+     android:background="#9BCD9B"  
+    >
+ 
+<LinearLayout
+        
+ 		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+ 		android:orientation="vertical" >	 
+ 		<LinearLayout
+		 android:id="@+id/tab01"
+		 android:orientation="vertical"
+		 android:layout_width="match_parent"
+		 android:layout_height="match_parent"
+		 >
+ 		
+ 		<TextView 
+  		 android:text="@string/Title0"
+  		 android:textSize = "25sp"
+  		 android:textColor = "#68228B"
+  		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"
+		 android:layout_marginTop="20dip"
+         android:layout_marginBottom="7dip"/>
+ 		<TextView 
+  		 android:text="(1)肺炎的治疗原则是应用消炎药物，杀灭病原菌。根据不同的病原菌选用敏感的药物，早期治疗、足疗程，
+  		 可根据病情选择治疗方案，同时还应对症治疗如发热时给予服用退热剂，咳嗽应给予化痰止咳药物，对重症肺炎应及时到医院进行相应的住院治疗。"
+  		 android:textSize = "15sp"
+  		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"/>
+ 		<TextView 
+  		 android:text="(2)对患肺炎的孩子，家长要细心、仔细，注意孩子的体温和呼吸的情况，要保持室内空气新鲜、安静，让孩子休息好。
+  		 在饮食上要吃易消化、高热量和富有维生素的食物，以软的食物最好，有利于消化道的吸收。咳嗽时要拍拍孩子的背部，有利于痰液的排出，
+  		 拍背时从下往上拍，房间内不要太干燥，孩子要适当地饮水，以稀释痰液，有利于痰的排出。。"
+  		 android:textSize = "15sp"
+  		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"/>
+ 		<TextView 
+  		 android:text="(3)肺炎痊愈后，也不要掉以轻心，特别要注意预防上呼吸道感染，否则易反复感染。注意加强锻炼，
+  		 可根据年龄选择适当的锻炼方法。如果孩子成天居住在门窗紧闭的居室内，对外界空气适应能力就差。到户外活动时，注意适当增加衣服。
+  		 社会上感冒流行时，不要带孩子到公共场所去。家里有人患感冒时，不要与孩子接触。。"
+  		 android:textSize = "15sp"
+  		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"/>
+		</LinearLayout>
+
+
+  </LinearLayout>
+</ScrollView>

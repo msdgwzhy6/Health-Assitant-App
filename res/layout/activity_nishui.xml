@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+     android:background="#9BCD9B"  
+    >
+ 
+<LinearLayout
+        
+ 		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+ 		android:orientation="vertical" >	 
+ 		<LinearLayout
+		 android:id="@+id/tab01"
+		 android:orientation="vertical"
+		 android:layout_width="match_parent"
+		 android:layout_height="match_parent"
+		 >
+ 		
+ 		<TextView 
+  		 android:text="@string/Title0"
+  		 android:textSize = "25sp"
+  		 android:textColor = "#68228B"
+  		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"
+		 android:layout_marginTop="20dip"
+         android:layout_marginBottom="7dip"/>
+ 		<TextView 
+  		 android:text="(1)下水迅速救上岸由于孩子溺水并可能造成死亡的过程很短，所以应以最快的速度将其从水里救上岸。若孩子溺入深水，
+  		 抢救者宜从背部将其头部托起或从上面拉起其胸部，使其面部露出水面，然后将其拖上岸。"
+  		 android:textSize = "15sp"
+  		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"/>
+ 		<TextView 
+  		 android:text="(2)清除口鼻里的堵塞物孩子被救上岸后，使孩子头朝下，立刻撬开其牙齿，用手指清除口腔和鼻腔内杂物，再用手掌迅速连续击打其肩后背部，
+  		 让其呼吸道畅通，并确保舌头不会向后堵住呼吸通道。 "
+  		 android:textSize = "15sp"
+  		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"/>
+ 		<TextView 
+  		 android:text="(3)倒出呼吸道内积水 方法一：抢救者单腿跪地；另一腿屈起，将溺水儿童俯卧置于屈起的大腿上，使其头足下垂。然后颤动大腿或压迫其背部，
+  		 使其呼吸道内积水倾出。 方法二：将溺水儿童俯卧置于抢救者肩部，使其头足下垂，抢救者作跑动姿态就可倾出其呼吸道内积水。清理积水的同时，
+  		 先要用手清除溺水儿童的咽部和鼻腔里的泥沙及污物，以保持呼吸道畅通。注意倾水的时间不宜过长，以免延误心肺复苏。"
+  		 android:textSize = "15sp"
+  		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"/>
+		</LinearLayout>
+
+
+  </LinearLayout>
+</ScrollView>

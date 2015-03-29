@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+     android:background="#9BCD9B"  
+    >
+ 
+<LinearLayout
+        
+ 		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+ 		android:orientation="vertical" >	 
+ 		<LinearLayout
+		 android:id="@+id/tab01"
+		 android:orientation="vertical"
+		 android:layout_width="match_parent"
+		 android:layout_height="match_parent"
+		 >
+ 		
+ 		<TextView 
+  		 android:text="@string/Title0"
+  		 android:textSize = "25sp"
+  		 android:textColor = "#68228B"
+  		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"
+		 android:layout_marginTop="20dip"
+         android:layout_marginBottom="7dip"/>
+ 		<TextView 
+  		 android:text="(1)首先请不要惊慌。因为一般的电梯，轿厢上面都有好多条安全绳，安全系数很高。所以，电梯一般是不会掉下电梯槽的。
+  		 电梯都装有防坠安全装置，即使停电了，电灯熄灭了，安全装置也不会失灵。"
+  		 android:textSize = "15sp"
+  		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"/>
+ 		<TextView 
+  		 android:text="(2)如果电梯里面有信号，可以拨打电话，应该首先按照电梯里面的指示，拨打电梯故障求助电话。如果求助电话没有人值班，
+  		 那就打电话报警。告诉对方自己所在的位置。"
+  		 android:textSize = "15sp"
+  		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"/>
+ 		<TextView 
+  		 android:text="(3)被困电梯时，切忌对按钮进行乱按，因为乱按之后，电脑的程序发生紊乱，
+  		 可能会突然启动或者停下，产生很大的机械破坏力，也容易造成人员伤亡。而电梯内的紧急出口，更不可轻易攀爬。"
+  		 android:textSize = "15sp"
+  		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"/>
+		</LinearLayout>
+
+
+  </LinearLayout>
+</ScrollView>

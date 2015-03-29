@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+     android:background="#9BCD9B"  
+    >
+ 
+<LinearLayout
+        
+ 		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+ 		android:orientation="vertical" >	 
+ 		<LinearLayout
+		 android:id="@+id/tab01"
+		 android:orientation="vertical"
+		 android:layout_width="match_parent"
+		 android:layout_height="match_parent"
+		 >
+ 		
+ 		<TextView 
+  		 android:text="@string/Title0"
+  		 android:textSize = "25sp"
+  		 android:textColor = "#68228B"
+  		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"
+		 android:layout_marginTop="20dip"
+         android:layout_marginBottom="7dip"/>
+ 		<TextView 
+  		 android:text="(1）首先要打开门窗将病人从房中搬出，搬到空气新鲜、流通而温暖的地方，同时关闭煤气灶开关，将煤炉抬到室外。"
+  		 android:textSize = "15sp"
+  		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"/>
+ 		<TextView 
+  		 android:text="(2)检查病人的呼吸道是否畅通，发现鼻、口中有呕吐物、分泌物应立即清除，使病人自主呼吸。对呼吸浅表者或呼吸停止者，要立即进行口对口呼吸，方法是：
+		让病人仰卧，解开衣领和紧身衣服，术者一手紧捏病人的鼻孔，另一手托起病人下颌使其头部充分后仰，并用这只手翻开病人嘴唇，术者吸足一口气，对准病人嘴部大口吹气，吹气停止后，
+		立即放松捏鼻的手，让气体从病人的肺部排出。如此反复进行。频率成人每分钟14至16次，儿童18至24次，幼儿30。直到病人出现自主呼吸或明显的死亡征象为止。"
+  		 android:textSize = "15sp"
+  		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"/>
+ 		<TextView 
+  		 android:text="(3).给病人盖上大衣或毛毯、棉被，防止受寒发生感冒、肺炎。可用手掌按摩病人躯体，在脚和下肢放置热水袋，促进吸入毒物的消除。
+		对昏迷不醒者，可以手指尖用力掐人保（鼻唇沟上1/3与下2/3交界处）、十宣（两手十指尖端，距指甲约0.1寸处）等穴位；对意识清楚的病人，可给饮服浓茶水或热咖啡。"
+  		 android:textSize = "15sp"
+  		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"/>
+		</LinearLayout>
+
+
+  </LinearLayout>
+</ScrollView>

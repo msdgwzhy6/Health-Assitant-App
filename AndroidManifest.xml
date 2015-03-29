@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.assistant"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="10" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+  	
+		<!-- 以下为主界面中的Activity -->        
+       
+        <activity
+            android:name="com.example.activity.MainActivity"
+        	android:label="@string/app_name" >
+        </activity>
+ 
+        <activity
+            android:name="com.example.activity.MapslistActivity"
+        	android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name="com.example.activity.ChatActivity"
+        	android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name="com.example.activity.MedicineActivity"
+        	android:label="@string/app_name" >
+        </activity>
+        
+		<activity
+            android:name="com.example.activity.QuestionActivity"
+        	android:label="@string/app_name" >
+        </activity>
+        
+		<!-- 左滑模块的Activity -->
+		<activity
+		    android:name="com.example.leftslide.Leftslide_Activity"
+		    android:label="@string/app_name">
+		</activity>
+		
+		<!-- 左滑菜单中的Activity -->
+		<activity 
+		    android:name="com.example.leftcontent.ShakeActivity"
+		    android:label="@string/app_name">
+		</activity>
+		
+		<activity 
+		    android:name="com.example.leftcontent.AboutActivity"
+		    android:label="@string/app_name">		    
+		</activity>
+		
+		<activity 
+		    android:name="com.example.leftcontent.TipsActivity"
+		    android:label="@string/app_name">		    
+		</activity>
+		
+		  <activity
+            android:name="com.sitech.oncon.barcode.core.CaptureActivity"
+            android:clearTaskOnLaunch="true"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:stateNotNeeded="true"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="stateAlwaysHidden" > 
+            <!-- Allow web apps to launch Barcode Scanner by linking to http://zxing.appspot.com/scan. -->     
+        </activity>
+		
+		<activity
+		    android:name="com.example.leftcontent.ScanActivity"
+		    android:label="@string/app_name">
+		</activity>
+		
+		<!-- 以下为聊天模块的Activity(孟) -->
+		<activity
+		    android:name="com.example.chat.IniActivity"
+		    android:label="@string/app_name">		    
+		</activity>
+		
+		<activity
+		    android:name="com.example.chat.IniuserActivity"
+		    android:label="@string/app_name">
+		</activity>
+		
+		<activity 
+		    android:name="com.example.chat.SocketmsgActivity"
+		    android:label="@string/app_name">
+		</activity>
+		
+		<!-- 以下为推送模块的Activity(孟) -->
+		<activity 
+		    android:name="com.example.push.PushActivity"
+		    android:label="@string/app_name">
+		</activity>
+			
+		<!-- 以下为小知识模块的Activity（许负责） -->
+		<activity 
+		    android:name="com.example.Tips_activity.JijiuActivity"
+		    android:label="@string/app_name">		    
+		</activity>
+		<activity 
+		    android:name="com.example.Tips_activity.HuxiActivity"
+		    android:label="@string/app_name">		    
+		</activity>
+		<activity 
+		    android:name="com.example.Tips_activity.FusuActivity"
+		    android:label="@string/app_name">		    
+		</activity>
+		<activity 
+		    android:name="com.example.Tips_activity.ZhongfengActivity"
+		    android:label="@string/app_name">		    
+		</activity>
+		<activity 
+		    android:name="com.example.Tips_activity.ShiwuActivity"
+		    android:label="@string/app_name">		    
+		</activity>
+		<activity 
+		    android:name="com.example.Tips_activity.MeiqiActivity"
+		    android:label="@string/app_name">		    
+		</activity>
+		
+		
+		<activity 
+		    android:name="com.example.Tips_activity.YiwaiActivity"
+		    android:label="@string/app_name">		    
+		</activity>
+		<activity 
+		    android:name="com.example.Tips_activity.YunActivity"
+		    android:label="@string/app_name">		    
+		</activity>
+		<activity 
+		    android:name="com.example.Tips_activity.ChudianActivity"
+		    android:label="@string/app_name">		    
+		</activity>
+		<activity 
+		    android:name="com.example.Tips_activity.NishuiActivity"
+		    android:label="@string/app_name">		    
+		</activity>
+		<activity 
+		    android:name="com.example.Tips_activity.DusheActivity"
+		    android:label="@string/app_name">		    
+		</activity>
+		<activity 
+		    android:name="com.example.Tips_activity.DiantiActivity"
+		    android:label="@string/app_name">		    
+		</activity>
+		
+		<activity 
+		    android:name="com.example.Tips_activity.ChangJianActivity"
+		    android:label="@string/app_name">		    
+		</activity>
+		<activity 
+		    android:name="com.example.Tips_activity.TangActivity"
+		    android:label="@string/app_name">		    
+		</activity>
+		<activity 
+		    android:name="com.example.Tips_activity.YaActivity"
+		    android:label="@string/app_name">		    
+		</activity>
+		<activity 
+		    android:name="com.example.Tips_activity.YuguActivity"
+		    android:label="@string/app_name">		    
+		</activity>
+		<activity 
+		    android:name="com.example.Tips_activity.YiwuActivity"
+		    android:label="@string/app_name">		    
+		</activity>
+		<activity 
+		    android:name="com.example.Tips_activity.ZhongshuActivity"
+		    android:label="@string/app_name">		    
+		</activity>
+		
+		
+		<activity 
+		    android:name="com.example.Tips_activity.XiaoerActiviy"
+		    android:label="@string/app_name">		    
+		</activity>
+		<activity 
+		    android:name="com.example.Tips_activity.TunaiActivity"
+		    android:label="@string/app_name">		    
+		</activity>
+		<activity 
+		    android:name="com.example.Tips_activity.YeshiActivity"
+		    android:label="@string/app_name">		    
+		</activity>
+		<activity 
+		    android:name="com.example.Tips_activity.MazhenActivity"
+		    android:label="@string/app_name">		    
+		</activity>
+		<activity 
+		    android:name="com.example.Tips_activity.GaoshaoActivity"
+		    android:label="@string/app_name">		    
+		</activity>
+		<activity 
+		    android:name="com.example.Tips_activity.FeiyanActivity"
+		    android:label="@string/app_name">		    
+		</activity>
+		
+		
+		
+		<!-- 以下为主体检模块中的Activity（孟负责） --> 
+		<activity
+			android:name="com.example.question_activity.WeightActivity"
+			android:label="@string/app_name" >
+		</activity>
+		
+		<activity
+            android:name="com.example.question_activity.BMIActivity"
+        	android:label="@string/app_name" >
+        </activity>
+        
+		<activity
+            android:name="com.example.question_activity.FatActivity"
+        	android:label="@string/app_name" >
+        </activity>
+		
+		<activity
+		    android:name="com.example.question_activity.WHRActivity"
+		    android:label="@string/app_name" >
+		</activity>
+		
+		<activity
+		    android:name="com.example.question_activity.BMRActivity"
+		    android:label="@string/app_name" >
+		</activity>
+		
+		<activity
+		    android:name="com.example.question_activity.EHRActivity"
+		    android:label="@string/app_name" >
+		</activity>
+		<activity
+		    android:name="com.example.question_activity.YCQActivity"
+		    android:label="@string/app_name" >
+		</activity>
+		
+		<!-- 以下为开机模块中的Activity（许负责） -->
+		 <activity
+            android:name="com.example.kaiji_activity.Viewpage_Activity"
+            android:label="@string/app_name" >   
+        </activity>
+         <activity
+            android:name="com.example.kaiji_activity.Donghua_Activity"
+            android:label="@string/app_name" >   
+        </activity>
+        <!-- 地图模块的Activity -->
+        <activity
+            android:name="com.example.maps_activity.Yaodian_Activity"
+        	android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.maps_activity.Yiyuan_Activity"
+        	android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.maps_activity.ATM_Activity"
+        	android:label="@string/app_name" >
+        </activity>
+         <activity
+            android:name="com.example.maps_activity.busline_Activity"
+        	android:label="@string/app_name" >
+        </activity>
+         <activity
+            android:name="com.example.maps_activity.Gongjiao_Activity"
+        	android:label="@string/app_name" >
+        </activity>
+         <activity
+            android:name="com.example.maps_activity.basemap_Activity"
+        	android:label="@string/app_name" >
+        </activity>
+         <activity
+            android:name="com.never.map.app"
+        	android:label="@string/app_name" >
+        </activity>
+         <activity
+            android:name="com.never.map.BuslineSearch"
+        	android:label="@string/app_name" >
+        </activity>
+         <activity
+            android:name="com.never.map.CustomOverlay"
+        	android:label="@string/app_name" >
+        </activity>
+         <activity
+            android:name="com.never.map.CustomOverlayItem"
+        	android:label="@string/app_name" >
+        </activity>
+         <activity
+            android:name="com.never.map.CustomRouteOverLay"
+        	android:label="@string/app_name" >
+        </activity>
+        
+        
+		<!-- 以下为药箱模块中的Activity（许负责） --> 
+		 <activity
+            android:name="com.example.kaiji_activity.Welcome_Activity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+		
+        
+         
+		<activity
+            android:name="com.example.medicine_activity.Jingzhui_Activity00"
+        	android:label="@string/app_name" >
+        </activity>
+        
+        
+        <activity
+            android:name="com.example.medicine_activity.GuZhiZengSheng_Activity01"
+        	android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name="com.example.medicine_activity.GuGuanJieYan_Activity02"
+        	android:label="@string/app_name" >
+        </activity>
+        
+         <activity
+            android:name="com.example.medicine_activity.GuZhiShuSong_Activity03"
+        	android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name="com.example.medicine_activity.GuGuHuaiSi_Activity04"
+        	android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name="com.example.medicine_activity.ZhuiJianPan_Activity05"
+        	android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name="com.example.medicine_activity.YaoJiLaoSun_Activity06"
+        	android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name="com.example.medicine_activity.TongFeng_Activity07"
+        	android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name="com.example.medicine_activity.LeiFengShi_Activity08"
+        	android:label="@string/app_name" >
+        </activity>
+        
+         <activity
+            android:name="com.example.medicine_activity.XiaoChuan_Activity10"
+        	android:label="@string/app_name" >
+        </activity>
+        
+          <activity
+            android:name="com.example.medicine_activity.ZhiQiGuanYan_Activity11"
+        	android:label="@string/app_name" >
+        </activity>
+        
+         <activity
+            android:name="com.example.medicine_activity.FeiJieHe_Activity12"
+        	android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name="com.example.medicine_activity.YanHouYan_Activity13"
+        	android:label="@string/app_name" >
+        </activity>
+        
+         <activity
+            android:name="com.example.medicine_activity.FeiQiZhong_Activity14"
+        	android:label="@string/app_name" >
+        </activity>
+        
+          <activity
+            android:name="com.example.medicine_activity.WeiYan_Activity20"
+        	android:label="@string/app_name" >
+        </activity>
+        
+           <activity
+            android:name="com.example.medicine_activity.XiaoHua_Activity21"
+        	android:label="@string/app_name" >
+        </activity>
+        
+           <activity
+            android:name="com.example.medicine_activity.JieChangYan_Activity22"
+        	android:label="@string/app_name" >
+        </activity>
+        
+          <activity
+            android:name="com.example.medicine_activity.ZhiChuang_Activity23"
+        	android:label="@string/app_name" >
+        </activity>
+        
+          <activity
+            android:name="com.example.medicine_activity.LiJi_Activity24"
+        	android:label="@string/app_name" >
+        </activity>
+        
+          <activity
+            android:name="com.example.medicine_activity.CuoChuang_Activity30"
+        	android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name="com.example.medicine_activity.JiaoQi_Activity31"
+        	android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name="com.example.medicine_activity.BaiDianFeng_Activity32"
+        	android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name="com.example.medicine_activity.NiuPiXuan_Activity33"
+        	android:label="@string/app_name" >
+        </activity>
+        
+         <activity
+            android:name="com.example.medicine_activity.PiYan_Activity34"
+        	android:label="@string/app_name" >
+        </activity>
+        
+         <activity
+            android:name="com.example.medicine_activity.XiJun_Activity35"
+        	android:label="@string/app_name" >
+        </activity>
+        
+         <activity
+            android:name="com.example.medicine_activity.PiFu_Activity36"
+        	android:label="@string/app_name" >
+        </activity>
+        
+         <activity
+            android:name="com.example.medicine_activity.HuiZhiJia_Activity37"
+        	android:label="@string/app_name" >
+        </activity>
+        
+         <activity
+            android:name="com.example.medicine_activity.GaoXueYa_Acyivity40"
+        	android:label="@string/app_name" >
+        </activity>
+        
+         <activity
+            android:name="com.example.medicine_activity.NaoXueShuan_Activity41"
+        	android:label="@string/app_name" >
+        </activity>
+        
+         <activity
+            android:name="com.example.medicine_activity.GaoXueZhi_Activity42"
+        	android:label="@string/app_name" >
+        </activity>
+        
+         <activity
+            android:name="com.example.medicine_activity.TangNiaoBing_Activity43"
+        	android:label="@string/app_name" >
+        </activity>
+        
+         <activity
+            android:name="com.example.medicine_activity.GuanXinBing_Activity44"
+        	android:label="@string/app_name" >
+        </activity>
+        
+         <activity
+            android:name="com.example.medicine_activity.BiYan_Activity50"
+        	android:label="@string/app_name" >
+        </activity>
+        
+         <activity
+            android:name="com.example.medicine_activity.KuiYang_Activity51"
+        	android:label="@string/app_name" >
+        </activity>
+        
+         <activity
+            android:name="com.example.medicine_activity.GanYan_Activity52"
+        	android:label="@string/app_name" >
+        </activity>
+        
+         <activity
+            android:name="com.example.medicine_activity.QinGuanYan_Activity53"
+        	android:label="@string/app_name" >
+        </activity>
+        
+         <activity
+            android:name="com.example.medicine_activity.BaiNeiZhang_Activity54"
+        	android:label="@string/app_name" >
+        </activity>
+         
+         <activity
+            android:name="com.example.medicine_activity.ErYan_Activity55"
+        	android:label="@string/app_name" >
+        </activity>
+        
+         <activity
+            android:name="com.example.medicine_activity.YaZhouYan_Activity56"
+        	android:label="@string/app_name" >
+        </activity>
+        
+         <activity
+            android:name="com.example.medicine_activity.YangWei_Activity60"
+        	android:label="@string/app_name" >
+        </activity>
+        
+          <activity
+            android:name="com.example.medicine_activity.TuoFa_Activity61"
+        	android:label="@string/app_name" >
+        </activity>
+        
+          <activity
+            android:name="com.example.medicine_activity.QianLie_Activity62"
+        	android:label="@string/app_name" >
+        </activity>
+        
+         <activity
+            android:name="com.example.medicine_activity.ShenYan_Activity63"
+        	android:label="@string/app_name" >
+        </activity>
+        
+         <activity
+            android:name="com.example.medicine_activity.TongJing_Activity70"
+        	android:label="@string/app_name" >
+        </activity>
+        
+         <activity
+            android:name="com.example.medicine_activity.YinDaoYan_Activity71"
+        	android:label="@string/app_name" >
+        </activity>
+        
+         <activity
+            android:name="com.example.medicine_activity.BuTiao_Activity72"
+        	android:label="@string/app_name" >
+        </activity>
+        
+         <activity
+            android:name="com.example.medicine_activity.RuXian_Activity73"
+        	android:label="@string/app_name" >
+        </activity>			
+    </application>
+    <!-- 添加聊天模块的授权信息 -->
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+	<uses-permission android:name="android.permission.GET_TASKS" />
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+	<uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+	<uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+	
+     <!-- 添加百度API的授权信息 -->
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+	<uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
+
+	 <!-- 添加百度地图对屏幕的支持 -->
+	 <supports-screens android:largeScreens="true"
+	    android:normalScreens="false" android:smallScreens="true"
+	    android:resizeable="true" android:anyDensity="true"/>
+	<!-- 添加扫一扫的支持 -->    
+     <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+</manifest>

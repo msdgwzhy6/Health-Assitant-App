@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+ android:id="@android:id/tabhost"
+ android:layout_width="match_parent"
+ android:layout_height="match_parent"
+ android:layout_weight="1"
+ android:background="#9BCD9B">
+ 
+<LinearLayout
+ 		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+ 		android:orientation="vertical" >
+ 
+	<TabWidget
+		 android:id="@android:id/tabs"
+ 		 android:layout_width="match_parent"
+ 		 android:layout_height="wrap_content" />
+ 
+	<FrameLayout
+		 android:id="@android:id/tabcontent"
+ 		 android:layout_width="match_parent"
+ 		 android:layout_height="match_parent" >
+ 		 <ScrollView  
+ 		    android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:background="#9BCD9B">
+ 		<LinearLayout
+		 android:id="@+id/tab01"
+		 android:orientation="vertical"
+		 android:layout_width="match_parent"
+		 android:layout_height="match_parent" >
+ 		<TextView 
+  		 android:text="症状描述："
+  		 android:textSize = "25sp"
+  		 android:textColor = "#68228B"
+  		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"
+		 android:layout_marginTop="7dip"
+        android:layout_marginBottom="7dip"/>
+ 		<TextView
+ 		 android:text="颈椎病的临床症状较为复杂。主要有颈背疼痛、上肢无力、手指发麻、下肢乏力、行走困难、头晕、恶心、呕吐，甚至视物模糊，心动过速及吞咽困难等。颈椎病的临床症状与病变部位、组织受累程度及个体差异有一定关系"
+ 		 android:textSize = "18sp"
+  		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"/>
+ 		
+ 		<TextView 
+  		 android:text="注意事项："
+  		 android:textSize = "25sp"
+  		 android:textColor = "#68228B"
+  		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"
+		 android:layout_marginTop="15dip"
+         android:layout_marginBottom="7dip"/>
+ 		<TextView 
+  		 android:text="1、合理用枕：合适的枕头对治疗和预防颈椎病十分重要，是药物治疗所不能替代的，应长期坚持应用。枕头高度应以本人拳头一拳高(约6至7厘米)为宜。此外，枕头应有适当的弹性或可塑性，不要过硬，以木棉或谷物皮壳枕较好，应用后可以形成马鞍形。"
+  		 android:textSize = "18sp"
+  		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"/>
+ 		<TextView 
+  		 android:text="2、注意颈部保暖：颈部受寒冷刺激会使肌肉血管痉挛，加重颈部板滞疼痛。在秋冬季节，最好穿高领衣服;天气稍热，夜间睡眠时应注意防止颈肩部受凉;炎热季节，空调温度不能太低。"
+  		 android:textSize = "18sp"
+  		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"/>
+ 		<TextView 
+  		 android:text="3、姿势正确：最佳的学习或伏案工作姿势是颈部保持正直，微微地前倾，不要扭转、倾斜;工作时间超过1小时应该休息几分钟，做些颈部运动或按摩;不宜头靠在床头或沙发扶手上看书、看电视等。"
+  		 android:textSize = "18sp"
+  		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"/>
+		</LinearLayout>
+</ScrollView>
+	  <LinearLayout
+ 		android:id="@+id/tab02"
+ 		android:orientation="vertical"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	     >
+ 		<ListView
+	    android:id="@+id/lv_question_items"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="15dp"
+	    android:divider="#9BCD9B"
+	    android:dividerHeight="2dp"
+	    android:headerDividersEnabled="true" >	    
+		</ListView>
+ 	
+		</LinearLayout>
+	</FrameLayout>
+  </LinearLayout>
+</TabHost>

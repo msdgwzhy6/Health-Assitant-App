@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+     android:background="#9BCD9B"  
+    >
+ 
+<LinearLayout
+        
+ 		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+ 		android:orientation="vertical" >	 
+ 		<LinearLayout
+		 android:id="@+id/tab01"
+		 android:orientation="vertical"
+		 android:layout_width="match_parent"
+		 android:layout_height="match_parent"
+		 >
+ 		
+ 		<TextView 
+  		 android:text="@string/Title0"
+  		 android:textSize = "25sp"
+  		 android:textColor = "#68228B"
+  		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"
+		 android:layout_marginTop="20dip"
+         android:layout_marginBottom="7dip"/>
+ 		<TextView 
+  		 android:text="(1)脱离电源 。使触电人很快脱离电源 ，是救治触电人的第一步 ，也是最重要的一步。
+  		 如果说开关距离救护人较近，应即迅速地拉开开关，切断电源。如果开关距离救护人较远，可用绝缘手钳或装有干燥木柄的刀、斧、铁锹等将电线切断；但要防止被切断的电源线触及人体。"
+  		 android:textSize = "15sp"
+  		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"/>
+ 		<TextView 
+  		 android:text="(2)急救处理。当触电人脱离开电源后，应即依据具体情况，迅速对症救治，同时赶快派人请医生前来抢救。如果触电人的伤害并不严重 ，
+  		 神志尚清醒 ，只是有些心慌 ，四肢发麻 ，全身无力 ，或者虽一度昏迷 ，但未失去知觉时 ，都要使之安静休息，不要走路，并密切观察其病变。"
+  		 android:textSize = "15sp"
+  		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"/>
+ 		<TextView 
+  		 android:text="(3)人完全失去知觉时 ， 则需采用口对口的人工呼吸和人工胸外挤压心脏两种方法同时进行 。如果现场仅有一人抢救时 ，可交替使用这两种方法 ，先胸外
+		挤压口脏 4-8 次，然后暂停，代以口对口吹气 2-3 次，再挤压心脏 ，又口对口吹气，如此循环反复地进行操作。人工呼吸和胸外挤压心脏 ，应尽可能就地进行 ，只有在现场危及安全时，
+		才可将触电人抬到安全地方进行急救。在运送医院途中， 也要连续进行人工呼吸和心脏挤压，进行抢救。"
+  		 android:textSize = "15sp"
+  		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"/>
+		</LinearLayout>
+
+
+  </LinearLayout>
+</ScrollView>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+     android:background="#9BCD9B"  
+    >
+ 
+<LinearLayout
+        
+ 		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+ 		android:orientation="vertical" >	 
+ 		<LinearLayout
+		 android:id="@+id/tab01"
+		 android:orientation="vertical"
+		 android:layout_width="match_parent"
+		 android:layout_height="match_parent"
+		 >
+ 		
+ 		<TextView 
+  		 android:text="@string/Title0"
+  		 android:textSize = "25sp"
+  		 android:textColor = "#68228B"
+  		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"
+		 android:layout_marginTop="20dip"
+         android:layout_marginBottom="7dip"/>
+ 		<TextView 
+  		 android:text="眼睛是最娇嫩的器官，容不得任何异物。如不及时清除异物，眨眼时会感到疼痛，还会引起炎症、溃烂甚至失明。异物入眼时，最忌讳使劲揉眼睛，
+  		 或用干的纸巾或毛巾擦拭眼睛。正确的做法是睁开眼睛，让同伴帮忙翻开眼皮，仔细检查眼白(球结膜)、下眼睑和角膜。如异物在眼皮或眼白部位，
+  		 可用纸巾蘸少许纯水轻轻擦去异物(在家时，最好用棉签沾少许抗生素类眼药水擦去异物);如异物在上眼睑内、角膜处，或嵌入较深，则必须及时到医院处理。"
+  		 android:textSize = "15sp"
+  		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"/>
+ 		
+		</LinearLayout>
+
+
+  </LinearLayout>
+</ScrollView>

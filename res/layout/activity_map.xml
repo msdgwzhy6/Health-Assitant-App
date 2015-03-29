@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView android:id="@+id/textview" 
+     android:layout_width="fill_parent" 
+     android:layout_height="wrap_content" 
+     android:text="正在定位..." 
+     android:layout_alignParentBottom="true"
+     android:textColor="#CD2626"
+    /> 
+    
+	<!-- 添加显示百度地图的控件 -->  
+     <com.baidu.mapapi.MapView   
+        android:id="@+id/bmapView"  
+        android:layout_width="fill_parent"   
+        android:layout_height="fill_parent"   
+        android:clickable="true"/>
+  
+         
+         <!-- 
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/button1"
+        android:hint="请输入搜索关键字"
+        android:ems="50" >
+        <requestFocus />
+    </EditText>用户输入关键字的文本框 -->
+
+	<LinearLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentTop="true"
+	    android:layout_centerHorizontal="true"
+	    android:layout_margin="10sp"
+	    android:gravity="center_horizontal" >
+
+	    <Button
+	        android:id="@+id/button1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="附近药店" />
+
+	    <Button
+	        android:id="@+id/button2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="附近医院" />
+	</LinearLayout>
+
+</RelativeLayout>

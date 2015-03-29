@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+     android:background="#9BCD9B"  
+    >
+ 
+<LinearLayout
+        
+ 		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+ 		android:orientation="vertical" >	 
+ 		<LinearLayout
+		 android:id="@+id/tab01"
+		 android:orientation="vertical"
+		 android:layout_width="match_parent"
+		 android:layout_height="match_parent"
+		 >
+ 		
+ 		<TextView 
+  		 android:text="@string/Title0"
+  		 android:textSize = "25sp"
+  		 android:textColor = "#68228B"
+  		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"
+		 android:layout_marginTop="20dip"
+         android:layout_marginBottom="7dip"/>
+ 		<TextView 
+  		 android:text="(1)、评估和现场安全：急救者在确认现场安全的情况下轻拍患者的肩膀，并大声呼喊“你还好吗？”检查患者是否有呼吸。
+  		 如果没有呼吸或者没有正常呼吸（即只有喘息），立刻启动应急反应系统。BLS程序已被简化，已把“看、听和感觉”从程序中删除，
+  		 实施这些步骤既不合理又很耗时间，基于这个原因，2010心肺复苏指南强调对无反应且无呼吸或无正常呼吸的成人，立即启动急救反应系统并开始胸外心脏按压。"
+  		 android:textSize = "15sp"
+  		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"/>
+ 		<TextView 
+  		 android:text="(2)、脉搏检查：对于非专业急救人员，不再强调训练其检查脉搏，只要发现无反应的患者没有自主呼吸就应按心搏骤停处理。对于医务人员，
+  		 一般以一手食指和中指触摸患者颈动脉以感觉有无搏动（搏动触点在甲状软骨旁胸锁乳突肌沟内）。检查脉搏的时间一般不能超过10秒，如10秒内仍不能确定有无脉搏，
+  		 应立即实施胸外按压。"
+  		 android:textSize = "15sp"
+  		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"/>
+ 		<TextView 
+  		 android:text="(3)胸外按压（circulation, C）：确保患者仰卧于平地上或用胸外按压板垫于其肩背下，急救者可采用跪式或踏脚凳等不同体位，
+  		 将一只手的掌根放在患者胸部的中央，胸骨下半部上，将另一只手的掌根置于第一只手上。手指不接触胸壁（图4）。按压时双肘须伸直，垂直向下用力按压，
+  		 成人按压频率为至少100次/min，下压深度至少为125px，每次按压之后应让胸廓完全回复。"
+  		 android:textSize = "15sp"
+  		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"/>
+		</LinearLayout>
+
+
+  </LinearLayout>
+</ScrollView>

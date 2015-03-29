@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+	<TextView
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" 
+	    android:text="今天的生活小贴士"
+	    android:gravity="center_horizontal"
+	    android:textSize="25sp"
+	    android:layout_marginTop="40dp">  
+	</TextView> 
+	
+	<TextView
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" 
+	    android:text="（点击内容查看原帖）"
+	    android:gravity="center_horizontal"
+	    android:textSize="25sp"
+	    android:layout_marginTop="20dp">  
+	</TextView>  
+	
+	<TextView
+	    android:id="@+id/push_tv"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center_horizontal"
+	    android:textSize="28sp"
+	    android:textColor="#9BCD9B"  
+	    android:layout_marginTop="70dp">
+	</TextView>
+</LinearLayout>

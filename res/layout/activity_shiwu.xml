@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+     android:background="#9BCD9B"  
+    >
+ 
+<LinearLayout
+        
+ 		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+ 		android:orientation="vertical" >	 
+ 		<LinearLayout
+		 android:id="@+id/tab01"
+		 android:orientation="vertical"
+		 android:layout_width="match_parent"
+		 android:layout_height="match_parent"
+		 >
+ 		
+ 		<TextView 
+  		 android:text="@string/Title0"
+  		 android:textSize = "25sp"
+  		 android:textColor = "#68228B"
+  		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"
+		 android:layout_marginTop="20dip"
+         android:layout_marginBottom="7dip"/>
+ 		<TextView 
+  		 android:text="(1)催吐对中毒不久而无明显呕吐者，可先用手指、筷子等刺激其舌根部的方法催吐，或让中毒者大量饮用温开水并反复自行催吐，以减少毒素的吸收。如经大量温水催吐后，
+		呕吐物已为较澄清液体时，可适量饮用牛奶以保护胃黏膜。如在呕吐物中发现血性液体，则提示可能出现了消化道或咽部出血，应暂时停止催吐。"
+  		 android:textSize = "15sp"
+  		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"/>
+ 		<TextView 
+  		 android:text="(2)导泻如果病人吃下去的中毒食物时间较长(如超过两小时)，而且精神较好，可采用服用泻药的方式，促使有毒食物排出体外。用大黄、
+  		 番泻叶煎服或用开水冲服，都能达到导泻的目的。"
+  		 android:textSize = "15sp"
+  		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"/>
+ 		<TextView 
+  		 android:text="(3)、解毒如果是因吃了变质的鱼、虾、蟹等引起的食物中毒，可取食醋100毫升，加水200毫升，稀释后一次服下。此外，还可采用紫苏30克、生甘草10克一次煎服。
+		若是误食了变质的防腐剂或饮料，最好的急救方法是用鲜牛奶或其他含蛋白质的饮料灌服。"
+  		 android:textSize = "15sp"
+  		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"/>
+		</LinearLayout>
+
+
+  </LinearLayout>
+</ScrollView>

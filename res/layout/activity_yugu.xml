@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+     android:background="#9BCD9B"  
+    >
+ 
+<LinearLayout
+        
+ 		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+ 		android:orientation="vertical" >	 
+ 		<LinearLayout
+		 android:id="@+id/tab01"
+		 android:orientation="vertical"
+		 android:layout_width="match_parent"
+		 android:layout_height="match_parent"
+		 >
+ 		
+ 		<TextView 
+  		 android:text="@string/Title0"
+  		 android:textSize = "25sp"
+  		 android:textColor = "#68228B"
+  		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"
+		 android:layout_marginTop="20dip"
+         android:layout_marginBottom="7dip"/>
+ 		<TextView 
+  		 android:text="鱼骨卡喉后，应立即停止进食，张大嘴发“啊”的声音，让家属借助光线或手电筒，看清鱼骨所在部位，再用镊子夹出。
+  		 若未发现鱼骨，则鱼骨可能卡在更深的喉咽部，应去医院就诊。鱼骨取出后，在短时间内仍然会有咽喉部异物感，这是局部黏膜擦伤的缘故，
+  		 不必介意。不少人喜欢采用吞咽大的干饭团的方法来对付鱼骨卡喉，该方法对小的鱼骨可能有效，但对稍大一些的鱼骨则无效，
+  		 有时反而会因挤压而刺得更深。还有些人认为，一旦鱼骨卡喉，可少量多次吞服食用醋使鱼骨溶解。
+  		 其实，食醋在咽喉部停留的时间很短，根本不可能溶解鱼骨"
+  		 android:textSize = "15sp"
+  		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"/>
+ 		
+		</LinearLayout>
+
+
+  </LinearLayout>
+</ScrollView>

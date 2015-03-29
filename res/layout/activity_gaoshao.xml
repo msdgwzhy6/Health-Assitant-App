@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+     android:background="#9BCD9B"  
+    >
+ 
+<LinearLayout
+        
+ 		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+ 		android:orientation="vertical" >	 
+ 		<LinearLayout
+		 android:id="@+id/tab01"
+		 android:orientation="vertical"
+		 android:layout_width="match_parent"
+		 android:layout_height="match_parent"
+		 >
+ 		
+ 		<TextView 
+  		 android:text="@string/Title0"
+  		 android:textSize = "25sp"
+  		 android:textColor = "#68228B"
+  		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"
+		 android:layout_marginTop="20dip"
+         android:layout_marginBottom="7dip"/>
+ 		<TextView 
+  		 android:text="(1)保持呼吸道通畅。应该使患儿平卧，将头偏向一侧，以免分泌物或呕吐物将患儿的口鼻堵住或误吸入肺。
+  		 千万不可再惊厥发作时给宝宝灌药，否则会发生吸入性肺炎的危险。"
+  		 android:textSize = "15sp"
+  		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"/>
+ 		<TextView 
+  		 android:text="(2)保持安静，不要大声叫喊，尽量少搬动患儿，减少不必要的刺激。对于已经出牙的宝宝应该在上下牙直接放入牙垫，
+  		 可以用压舌板、筷子等外缠绷带或干净的布条代替，以防抽搐时将舌头咬破。"
+  		 android:textSize = "15sp"
+  		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"/>
+ 		<TextView 
+  		 android:text="(3)用指甲深压宝宝鼻下人中穴。解开宝宝的领口、裤袋，用温水、酒精擦拭头颈部、两侧腋下和大腿根部，
+  		 也可以使用凉水毛巾较大面积的敷在额头降温，但切记胸腹部冷敷。待患儿停止抽搐，呼吸通畅后再送往医院。"
+  		 android:textSize = "15sp"
+  		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"/>
+		</LinearLayout>
+
+
+  </LinearLayout>
+</ScrollView>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+     android:background="#9BCD9B"  
+    >
+ 
+<LinearLayout
+        
+ 		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+ 		android:orientation="vertical" >	 
+ 		<LinearLayout
+		 android:id="@+id/tab01"
+		 android:orientation="vertical"
+		 android:layout_width="match_parent"
+		 android:layout_height="match_parent"
+		 >
+ 		
+ 		<TextView 
+  		 android:text="@string/Title0"
+  		 android:textSize = "25sp"
+  		 android:textColor = "#68228B"
+  		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"
+		 android:layout_marginTop="20dip"
+         android:layout_marginBottom="7dip"/>
+ 		<TextView 
+  		 android:text="(1)　对于神志清楚的噎食患儿要使其主动用力咳嗽，通过咳嗽产生的气流，将堵塞呼吸通道的食物清除出来，
+  		 或造成可以保持呼吸的空隙;同时要让患儿坐着，上身前倾，施救者在患儿的 背后两肩胛之间，以手掌根部快速有力地拍击四下;或者施救者以双臂，
+  		 从患儿背后合抱其腰部，手在前合成手掌，对准患儿上腹部，以拇指侧快速向内上方冲击四 次;以便把气道内或声门处的食物排出，
+  		 或造成空隙而恢复呼吸。"
+  		 android:textSize = "15sp"
+  		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"/>
+ 		<TextView 
+  		 android:text="(2)对于神志不清的噎食患儿让患儿侧卧，也可倒提患儿双脚，然后斜抱住身体，救护者一面用一指压下患儿的舌头，
+  		 一面在患儿的背后两肩胛之间，以手掌根部快速有力地拍击四下;或者让患儿仰卧，头后仰，救护者以一手掌根顶住患儿上腹，快速向内上方冲击四次。"
+  		 android:textSize = "15sp"
+  		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"/>
+ 		<TextView 
+  		 android:text="(3)对于进食黏稠食物的噎食患儿如进食汤圆、年糕等黏性比较大的食物所出现的噎食，除用上述介绍的办法之外，
+  		 可采取用手指掏出，或夹出堵塞食物的办法。取侧卧位，以食指或食指及中指，沿喉咙的内壁伸入喉咙深处，掏出或夹出食物。"
+  		 android:textSize = "15sp"
+  		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"/>
+		</LinearLayout>
+
+
+  </LinearLayout>
+</ScrollView>

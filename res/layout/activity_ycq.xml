@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+	<TextView 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" 
+	    android:text="预产期计算"
+	    android:textSize="30sp"
+	    android:textColor="#9BCD9B"
+	    android:textStyle="bold"
+	    android:gravity="center_horizontal"
+	    android:layout_marginTop="15dp" >  
+	</TextView>
+	
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:layout_marginTop="15dp">
+	    <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="请输入您最后一次的月经时间:"
+	        android:textSize="25sp"
+	        android:layout_marginTop="5dp"
+	        android:layout_marginLeft="20dp">
+	    </TextView>
+	   	
+	</LinearLayout> 
+	
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:layout_marginTop="15dp">
+	    <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="年:"
+	        android:textSize="25sp"
+	        android:layout_marginTop="5dp"
+	        android:layout_marginLeft="20dp">
+	    </TextView>
+	    
+	   	<EditText 
+	   	    android:id="@+id/ycq_et_year"
+	   	    android:layout_width="wrap_content"
+	   	    android:layout_height="wrap_content"
+	   	    android:layout_gravity="center_horizontal"
+	   	    android:numeric="integer"
+	   	    android:maxLength="4"
+	   	    android:hint="2000-2050"
+	   	    android:singleLine="true"
+	   	    android:layout_marginLeft="20dp">
+	    </EditText>
+	</LinearLayout>
+	
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:layout_marginTop="15dp">
+	    <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="月:"
+	        android:textSize="25sp"
+	        android:layout_marginTop="5dp"
+	        android:layout_marginLeft="20dp">
+	    </TextView>
+	    
+	   	<EditText 
+	   	    android:id="@+id/ycq_et_month"
+	   	    android:layout_width="wrap_content"
+	   	    android:layout_height="wrap_content"
+	   	    android:layout_gravity="center_horizontal"
+	   	    android:numeric="integer"
+	   	    android:maxLength="2"
+	   	    android:singleLine="true"
+	   	    android:hint="1-12"
+	   	    android:layout_marginLeft="20dp">
+	    </EditText>
+	</LinearLayout>
+	
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:layout_marginTop="15dp">
+	    <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="日:"
+	        android:textSize="25sp"
+	        android:layout_marginTop="5dp"
+	        android:layout_marginLeft="20dp">
+	    </TextView>
+	    
+	   	<EditText 
+	   	    android:id="@+id/ycq_et_day"
+	   	    android:layout_width="wrap_content"
+	   	    android:layout_height="wrap_content"
+	   	    android:layout_gravity="center_horizontal"
+	   	    android:numeric="integer"
+	   	    android:maxLength="2"
+	   	    android:singleLine="true"
+	   	    android:hint="1-31"
+	   	    android:layout_marginLeft="20dp">
+	    </EditText>
+	</LinearLayout>
+	
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:layout_marginTop="20dp">
+	   	<Button 
+	   	    android:id="@+id/ycq_bt_submit"
+	   	    android:layout_width="80dp"
+	   	    android:layout_height="60dp"
+	   	    android:text="提交"
+	   	    android:textSize="25sp"
+	   	    android:background="@drawable/bt_bkg_weightactivity_submit"
+	   	    android:layout_marginLeft="80dp">
+	    </Button>
+	    
+	    <Button 
+	   	    android:id="@+id/ycq_bt_reset"
+	   	    android:layout_width="80dp"
+	   	    android:layout_height="60dp"
+	   	    android:text="重置"
+	   	    android:textSize="25sp"
+	   	    android:background="@drawable/bt_bkg_weightactivity_submit"
+	   	    android:layout_marginLeft="50dp">
+	    </Button>	   	
+	</LinearLayout>
+	
+	<TextView
+	    android:id="@+id/ycq_tv_result1" 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:textSize="25sp"
+	    android:visibility="invisible"
+	    android:layout_marginTop="20dp"
+	    android:gravity="center_horizontal">	    
+	</TextView>
+	
+	<TextView
+	    android:id="@+id/ycq_tv_result2" 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:textSize="25sp"
+	    android:textColor="#CC0000"
+	    android:visibility="invisible"
+	    android:layout_marginTop="20dp"
+	    android:gravity="center_horizontal">	    
+	</TextView>
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+     android:background="#9BCD9B"  
+    >
+ 
+<LinearLayout
+        
+ 		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+ 		android:orientation="vertical" >	 
+ 		<LinearLayout
+		 android:id="@+id/tab01"
+		 android:orientation="vertical"
+		 android:layout_width="match_parent"
+		 android:layout_height="match_parent"
+		 >
+ 		
+ 		<TextView 
+  		 android:text="@string/Title0"
+  		 android:textSize = "25sp"
+  		 android:textColor = "#68228B"
+  		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"
+		 android:layout_marginTop="20dip"
+         android:layout_marginBottom="7dip"/>
+ 		<TextView 
+  		 android:text="(1)上身保持抬高的姿势一旦呕吐物进入气管会导致窒息。因此在让孩子躺下时，最好将浴巾垫在孩子身体下面并要保持
+  		 上身抬高。如果孩子躺着时发生吐奶，我们可以把孩子脸侧向一边。"
+  		 android:textSize = "15sp"
+  		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"/>
+ 		<TextView 
+  		 android:text="(2)吐奶后，要多注意观察孩子的状况在孩子躺着时要把孩子头部垫高，或者索性把孩子竖着抱起来。吐奶后，
+  		 孩子的脸色可能会不好，但只要稍后能恢复过来就没有问题。另外，根据情况可以适当地给孩子补充些水分。"
+  		 android:textSize = "15sp"
+  		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"/>
+ 		<TextView 
+  		 android:text="(3)补充水分要在呕吐后30分钟进行孩子吐奶后，如果马上给孩子补充水分，可能会再次引起呕吐。
+  		 因此，最好在吐后30分钟左右用勺先一点点地试着给孩子喂些白水。"
+  		 android:textSize = "15sp"
+  		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"/>
+		</LinearLayout>
+
+
+  </LinearLayout>
+</ScrollView>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+     android:background="#9BCD9B"  
+    >
+ 
+<LinearLayout
+        
+ 		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+ 		android:orientation="vertical" >	 
+ 		<LinearLayout
+		 android:id="@+id/tab01"
+		 android:orientation="vertical"
+		 android:layout_width="match_parent"
+		 android:layout_height="match_parent"
+		 >
+ 		
+ 		<TextView 
+  		 android:text="@string/Title0"
+  		 android:textSize = "25sp"
+  		 android:textColor = "#68228B"
+  		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"
+		 android:layout_marginTop="20dip"
+         android:layout_marginBottom="7dip"/>
+ 		<TextView 
+  		 android:text="(1)迅速避开热源;采取“冷散热”的措施，在水龙头下用冷水持续冲洗伤部，或将伤处置于盛冷水的容器中浸泡，持续30分钟，
+  		 以脱离冷源后疼痛已显著减轻为准。这样可以使伤处迅速、彻底地散热，使皮肤血管收缩，减少渗出与水肿，缓解疼痛，减少水泡形成，
+  		 防止创面形成疤痕。这是烧烫伤后的最佳的、也是最可行的治疗方案； 　　"
+  		 android:textSize = "15sp"
+  		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"/>
+ 		<TextView 
+  		 android:text="(2)将覆盖在伤处的衣裤剪开，以避免使皮肤的烫伤变重;创面不要用红药水、紫药水等有色药液，
+  		 以免影响医生对烫伤深度的判断，也不要用碱面、酱酒、牙膏等乱敷，以免造成感染"
+  		 android:textSize = "15sp"
+  		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"/>
+ 		<TextView 
+  		 android:text="(3)水泡可在低位用消毒针头刺破，转运时创面应以消毒敷料或干净衣被遮盖保护； 　
+  		 值得注意的是：烫伤发生后，千万不要揉搓、按摩、挤压烫伤的皮肤，也不要急着用毛巾拭擦。"
+  		 android:textSize = "15sp"
+  		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"/>
+		</LinearLayout>
+
+
+  </LinearLayout>
+</ScrollView>
